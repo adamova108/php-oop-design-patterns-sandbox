@@ -1,0 +1,11 @@
+{
+    "name": "luzsi/sandbox-project",
+    "require": {
+        "": ""
+    },
+    "autoload": {
+        "psr-4": {
+            "KWD_Sandbox\\": "src/"
+        }
+    }
+}

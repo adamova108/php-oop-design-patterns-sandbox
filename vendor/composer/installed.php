@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => 'ccb9f99b013b4e334e7d2dfc9cf7a5eafd6102a4',
+    'reference' => '0243ee1b0754de3e31739b833252b6d782d978c5',
     'name' => 'luzsi/sandbox-project',
   ),
   'versions' => 
@@ -27,7 +27,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => 'ccb9f99b013b4e334e7d2dfc9cf7a5eafd6102a4',
+      'reference' => '0243ee1b0754de3e31739b833252b6d782d978c5',
     ),
     'myclabs/deep-copy' => 
     array (

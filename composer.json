@@ -1,7 +1,7 @@
 {
     "name": "luzsi/sandbox-project",
     "require": {
-        "": ""
+        "phpunit/phpunit": "^9"
     },
     "autoload": {
         "psr-4": {

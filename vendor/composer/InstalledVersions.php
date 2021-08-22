@@ -32,7 +32,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '0243ee1b0754de3e31739b833252b6d782d978c5',
+    'reference' => '06188da41beb19965ba127dea1c6f282d1426b63',
     'name' => 'luzsi/sandbox-project',
   ),
   'versions' => 
@@ -53,7 +53,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '0243ee1b0754de3e31739b833252b6d782d978c5',
+      'reference' => '06188da41beb19965ba127dea1c6f282d1426b63',
     ),
     'myclabs/deep-copy' => 
     array (

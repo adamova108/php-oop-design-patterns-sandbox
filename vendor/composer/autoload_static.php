@@ -32,6 +32,7 @@ class ComposerStaticInitdebf191cd190295660a5d369256de290
         ),
         'K' => 
         array (
+            'KWD_Sandbox\\Tests\\' => 18,
             'KWD_Sandbox\\' => 12,
         ),
         'D' => 
@@ -64,9 +65,14 @@ class ComposerStaticInitdebf191cd190295660a5d369256de290
         array (
             0 => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser',
         ),
+        'KWD_Sandbox\\Tests\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/tests',
+        ),
         'KWD_Sandbox\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
+            1 => __DIR__ . '/../..' . '/src',
         ),
         'Doctrine\\Instantiator\\' => 
         array (

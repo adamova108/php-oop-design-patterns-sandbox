@@ -8,11 +8,13 @@ class Song implements MusicInterface
 
     public function __construct(string $title, string $artist, string $path)
     {
-        
+        $this->title = $title;
+        $this->artist = $artist;
+        $this->path = $path;
     }
 
     public function play()
     {
-        // TODO: Implement play() method.
+        return $this->path;
     }
 }

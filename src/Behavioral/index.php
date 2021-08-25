@@ -31,4 +31,4 @@ function strategy()
     var_dump($errors);
 }
 
-strategy();
+//strategy();

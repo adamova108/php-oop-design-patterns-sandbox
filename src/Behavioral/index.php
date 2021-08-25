@@ -1,5 +1,7 @@
 <?php
 
+use KWD_Sandbox\Behavioral\Observer\Currency;
+use KWD_Sandbox\Behavioral\Observer\PriceSimulator;
 use KWD_Sandbox\Behavioral\Strategy\Validator;
 
 require_once __DIR__ . './../../vendor/autoload.php';
@@ -32,3 +34,15 @@ function strategy()
 }
 
 //strategy();
+
+function observer()
+{
+
+    $priceSim = new PriceSimulator();
+    $priceSim->addCurrency(new Currency('USD', 212.12));
+    $priceSim->getCurrencies();
+}
+
+observer();
+
+

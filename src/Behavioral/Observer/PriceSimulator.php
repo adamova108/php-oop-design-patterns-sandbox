@@ -6,7 +6,7 @@ class PriceSimulator implements ObserverInterface
 {
     private $currencies = [];
 
-    public function addCurrency(Currency $currency)
+    public function addCurrency(CurrencyInterface $currency)
     {
         array_push($this->currencies, $currency);
     }
@@ -15,6 +15,13 @@ class PriceSimulator implements ObserverInterface
     {
         foreach ($this->currencies as $currency) {
             $currency->update();
+        }
+    }
+
+    public function getCurrencies()
+    {
+        foreach ($this->currencies as $currency) {
+            echo "{$currency->getName()} : {$currency->getPrice()}\n";
         }
     }
 }

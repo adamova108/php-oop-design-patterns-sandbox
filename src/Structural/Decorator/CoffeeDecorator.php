@@ -4,5 +4,8 @@ namespace KWD_Sandbox\Structural\Decorator;
 
 abstract class CoffeeDecorator extends Coffee
 {
-    public abstract function getDescription(): string;
+    public function getDescription(): string
+    {
+        return $this->description;
+    }
 }

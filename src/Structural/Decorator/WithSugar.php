@@ -2,7 +2,7 @@
 
 namespace KWD_Sandbox\Structural\Decorator;
 
-class WithMilk extends CoffeeDecorator
+class WithSugar extends CoffeeDecorator
 {
     public Coffee $coffee;
 
@@ -14,13 +14,13 @@ class WithMilk extends CoffeeDecorator
     /* @override */
     public function getDescription(): string
     {
-        return $this->coffee->getDescription() . ', Milk';
+        return $this->coffee->getDescription() . ', Sugar';
     }
 
     /* @override */
     public function cost(): float
     {
-        return $this->coffee->cost() + .50;
+        return $this->coffee->cost() + .25;
     }
 
 }

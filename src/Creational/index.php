@@ -49,7 +49,7 @@ function fizzBuzz()
 
 //fizzBuzz();
 
-$_fp = fopen('100000_testinput.txt', "r");
+/*$_fp = fopen('100000_testinput.txt', "r");
 
 $n = fgets($_fp);
 $phoneBook = [];
@@ -66,4 +66,4 @@ while ($name = trim(fgets($_fp))) {
 }
 $output = rtrim($output, "\n");
 
-file_put_contents('100000_output.txt', $output);
+file_put_contents('100000_output.txt', $output);*/

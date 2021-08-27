@@ -2,6 +2,8 @@
 
 use KWD_Sandbox\Structural\Composite\Playlist;
 use KWD_Sandbox\Structural\Composite\Song;
+
+use KWD_Sandbox\Structural\Decorator\Coffee;
 use KWD_Sandbox\Structural\Decorator\Espresso;
 use KWD_Sandbox\Structural\Decorator\WithMilk;
 use KWD_Sandbox\Structural\Decorator\WithSugar;
@@ -36,21 +38,26 @@ function decorator()
 {
 
     $espresso = new Espresso();
-    var_dump($espresso);
-
-    echo "\n = = = = == = = = == = = = == = = = == = = = == = = = = \n";
+    printCoffee($espresso);
+    /*var_dump($espresso);
+    echo "\n = = = = == = = = == = = = == = = = == = = = == = = = = \n";*/
 
     $espresso = new WithMilk($espresso);
-    var_dump($espresso);
+    printCoffee($espresso);
+    /*var_dump($espresso);
     echo "\n = = = = == = = = == = = = == = = = == = = = == = = = = \n";
-    echo $espresso->getDescription();
-
-    echo "\n = = = = == = = = == = = = == = = = == = = = == = = = = \n";
+    echo $espresso->getDescription();*/
 
     $espresso = new WithSugar($espresso);
-    var_dump($espresso);
+    printCoffee($espresso);
+    /*var_dump($espresso);
     echo "\n = = = = == = = = == = = = == = = = == = = = == = = = = \n";
-    echo $espresso->getDescription();
+    echo $espresso->getDescription();*/
+}
+
+function printCoffee(Coffee $coffee): void
+{
+    echo "Cost: {$coffee->cost()} | Desc: {$coffee->getDescription()}\n";
 }
 
 decorator();

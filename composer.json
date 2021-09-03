@@ -13,5 +13,8 @@
             "KWD_Sandbox\\Tests\\": "tests/",
             "KWD_Sandbox\\": "src/"
         }
+    },
+    "require": {
+        "ext-pdo": "*"
     }
 }

@@ -10,8 +10,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "KWD_Sandbox\\Tests\\": "tests/",
-            "KWD_Sandbox\\": "src/"
+            "KWD_Sandbox\\Tests\\": "tests/"
         }
     },
     "require": {

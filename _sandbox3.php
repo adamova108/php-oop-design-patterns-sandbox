@@ -59,6 +59,7 @@ $deathStar1->setWeaponPower(500);
 $deathStar2 = new DeathStarII();
 $deathStar2->setWeaponPower(999);
 
+
 ?>
 
 <table>

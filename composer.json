@@ -5,7 +5,7 @@
     },
     "autoload": {
         "psr-4": {
-            "KWD_Sandbox\\": "src/"
+            "KWD_Sandbox\\": "src"
         }
     },
     "autoload-dev": {

@@ -72,7 +72,6 @@ class ComposerStaticInitdebf191cd190295660a5d369256de290
         'KWD_Sandbox\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
-            1 => __DIR__ . '/../..' . '/src',
         ),
         'Doctrine\\Instantiator\\' => 
         array (

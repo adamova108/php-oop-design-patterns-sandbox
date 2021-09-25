@@ -1,5 +1,3 @@
-/.idea/
-/_sandbox.php
-/_sandbox2.php
-/CatTest.php
-/vendor/
+.idea
+vendor
+.phpunit.result.cache

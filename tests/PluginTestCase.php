@@ -4,12 +4,20 @@ namespace KWD_Sandbox\Tests;
 
 use KWD_Sandbox\Foo;
 use PHPUnit\Framework\TestCase;
-use Mockery;
+
+use KWD_Sandbox\Hello_Rammstein;
+use Mockery\Adapter\Phpunit\MockeryPHPUnitIntegration;
+
+use Brain\Monkey;
 
 abstract class PluginTestCase extends TestCase
 {
 
+    //use MockeryPHPUnitIntegration;
+
     protected $foo;
+
+    protected $hR;
 
     /**
      * Runs before each test.
@@ -17,24 +25,20 @@ abstract class PluginTestCase extends TestCase
     protected function setUp(): void
     {
         parent::setUp();
+        Monkey\setUp();
         $this->foo = new Foo;
 
-        /*$this->foo = Mockery::mock( Foo::class )
+        $this->hR = \Mockery::mock(Hello_Rammstein::class)
             ->shouldAllowMockingProtectedMethods()
-            ->makePartial();*/
-        //Monkey\setUp();
-
+            ->makePartial();
     }
 
-    /*public function testFalse(): void {
-        $this->foo
-            // The function we want to mock.
-            ->expects( 'bar' )
-            // The amount of times we expect the function to be called.
-            ->once()
-            // The value the function should return.
-            ->andReturn( 'kjh' );
-
-        $this->assertEquals( 'Foo::bar()',  $this->foo->bar() );
-    }*/
+    /**
+     * Runs after each test.
+     */
+    protected function tearDown(): void
+    {
+        Monkey\tearDown();
+        parent::tearDown();
+    }
 }

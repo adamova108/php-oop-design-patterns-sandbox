@@ -3,13 +3,13 @@
 // This used to be a standalone file directly extending PHPUnit\Framework\TestCase
 //require '../vendor/autoload.php';
 
-use KWD_Sandbox\Tests\PluginTestCase;
-use KWD_Sandbox\BookTitle;
-use KWD_Sandbox\Foo;
+namespace KWD_Sandbox\Tests;
 
+use KWD_Sandbox\BookTitle;
 
 class BookTitleTest extends PluginTestCase
 {
+
     /**
      * @test
      */

@@ -5,7 +5,7 @@
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '6028b1c78ebacf1615e662fa101b2e552dc7a5ee',
+        'reference' => '1d44e183dc6c9a614c5e660463d095767ad6d532',
         'name' => 'luzsi/sandbox-project',
         'dev' => true,
     ),
@@ -70,7 +70,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '6028b1c78ebacf1615e662fa101b2e552dc7a5ee',
+            'reference' => '1d44e183dc6c9a614c5e660463d095767ad6d532',
             'dev_requirement' => false,
         ),
         'mockery/mockery' => array(

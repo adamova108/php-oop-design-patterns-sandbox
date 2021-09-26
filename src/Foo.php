@@ -11,6 +11,7 @@ declare(strict_types=1);
 namespace KWD_Sandbox;
 
 
+
 /**
  * Foo class.
  */
